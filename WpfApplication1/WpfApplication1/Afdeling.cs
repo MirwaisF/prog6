@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class Afdeling
+    public  class Afdeling
     {
+        public int Id { get; set; }
+
+        public string Afdeling { get; set; }
+
     }
 }

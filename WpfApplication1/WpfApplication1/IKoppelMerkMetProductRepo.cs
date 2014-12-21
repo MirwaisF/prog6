@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    interface IProductRepo
+    interface IKoppelMerkMetProductRepo
     {
-        List<Product> ToList();
+        List<KoppelMerkMetProduct> ToList();
     }
 }

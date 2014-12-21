@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class IMerkRepo
+    interface IMerkRepo
     {
+        List<Merk> ToList();
     }
 }

@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WpfApplication1
 {
-    class Merk
+    public class Merk
     {
+        public int Id { get; set; }
+
+        public string Merk { get; set; }
     }
 }

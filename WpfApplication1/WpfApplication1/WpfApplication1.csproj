@@ -53,9 +53,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Afdeling.cs" />
+    <Compile Include="AfdelingModel.cs" />
     <Compile Include="BoodschappenLijst.xaml.cs">
       <DependentUpon>BoodschappenLijst.xaml</DependentUpon>
     </Compile>
+    <Compile Include="dumpProduct.cs" />
+    <Compile Include="IAfdelingRepo.cs" />
+    <Compile Include="IKoppelAfdelingMetProductRepo.cs" />
+    <Compile Include="IKoppelMerkMetProductRepo.cs" />
+    <Compile Include="IMerkRepo.cs" />
+    <Compile Include="IProductRepo.cs" />
+    <Compile Include="KoppelAfdelingMetProduct.cs" />
+    <Compile Include="KoppelMerkMetProduct.cs" />
+    <Compile Include="Merk.cs" />
+    <Compile Include="MerkModel.cs" />
+    <Compile Include="Product.cs" />
+    <Compile Include="ProductModel.cs" />
     <Compile Include="WinkelMandje.cs" />
     <Page Include="Beheer..xaml">
       <SubType>Designer</SubType>
