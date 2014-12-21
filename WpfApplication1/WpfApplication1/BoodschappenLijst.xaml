@@ -11,7 +11,7 @@
             </DataGrid.Columns>
         </DataGrid>
         
-        <TextBlock Text="Totaal prijs:">
+        <TextBlock Text="Totaal   prijs:">
             
         </TextBlock>
     </StackPanel>
