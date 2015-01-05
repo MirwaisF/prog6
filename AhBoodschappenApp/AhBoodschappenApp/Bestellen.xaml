@@ -1,0 +1,15 @@
+﻿<Window x:Class="AhBoodschappenApp.Bestellen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bestellen" Height="369.746" Width="724.418">
+	<Grid>
+		<TextBlock FontSize="30" TextAlignment="Center"><Run/><LineBreak/><Run/><LineBreak/><Run Text="Selecteer uw afdeling"/></TextBlock>
+
+		<Button Content="Zuivel" HorizontalAlignment="Left" Margin="10,201,0,0" VerticalAlignment="Top" Width="123" Height="49"/>
+		<Button Content="Brood" HorizontalAlignment="Left" Margin="154,201,0,0" VerticalAlignment="Top" Width="123" Height="49"/>
+		<Button Content="Groenten" HorizontalAlignment="Left" Margin="301,201,0,0" VerticalAlignment="Top" Width="123" Height="49"/>
+		<Button Content="Fruit" HorizontalAlignment="Left" Margin="443,202,0,0" VerticalAlignment="Top" Width="123" Height="49"/>
+		<Button Content="Vlees" HorizontalAlignment="Left" Margin="584,202,0,0" VerticalAlignment="Top" Width="123" Height="49"/>
+
+	</Grid>
+</Window>

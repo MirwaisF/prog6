@@ -1,0 +1,19 @@
+﻿<Window x:Class="AhBoodschappenApp.Afdeling"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Afdeling" Height="305.6" Width="597.6">
+	<Grid>
+		<TextBlock FontSize="15" Margin="10">Zuivel</TextBlock>
+		<DataGrid Margin="0,42,0.2,47">
+			<DataGrid.Columns>
+
+				<DataGridTextColumn Header="ID" />
+				<DataGridTextColumn Header="Naam" />
+				<DataGridTextColumn Header="Merk" />
+				<DataGridTextColumn Header="Prijs" />
+				<DataGridTextColumn Header="Coupon code" />
+			</DataGrid.Columns>
+		</DataGrid>
+		<Button HorizontalAlignment="Right" Margin="0,234,10.2,10" Height="32" Content="Toevoegen" />
+	</Grid>
+</Window>

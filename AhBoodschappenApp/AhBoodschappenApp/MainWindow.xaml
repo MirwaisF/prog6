@@ -1,0 +1,12 @@
+﻿<Window x:Class="AhBoodschappenApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="500">
+	<Grid>
+		<TextBlock FontSize="25" TextAlignment="Center" Margin="15">Klik op hetgeen wat u wilt uitvoeren</TextBlock>
+		<Button Content="Beheer" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="26,105,339.6,125.4" Width="128" Height="40"/>
+		<Button Content="Bestellen" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="338,105,27.6,125.4" Width="128" Height="40"/>
+		<Button Content="Recepten" HorizontalAlignment="Center" VerticalAlignment="Center"  Margin="182,105,183.6,125.4" Width="128" Height="40"/>
+
+	</Grid>
+</Window>

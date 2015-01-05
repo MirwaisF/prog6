@@ -1,0 +1,15 @@
+﻿<Window x:Class="AhBoodschappenApp.Boodschappenlijst1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Boodschappenlijst1" Height="300" Width="300">
+    <Grid>
+		<DataGrid Margin="0,0,-0.4,95.4">
+			<DataGrid.Columns>
+				<DataGridTextColumn Header="Naam" />
+				<DataGridTextColumn Header="Aantal" />
+			</DataGrid.Columns>
+		</DataGrid>
+		<TextBlock  FontSize="20" Text="Totaal: €" Margin="0,227,9.6,10.4"/>
+
+	</Grid>
+</Window>
