@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Recepten" Height="300" Width="300">
     <Grid>
-		<DataGrid Margin="0,0,-0.4,95.4">
+		<DataGrid Margin="0,0,-0.4,60.4">
 			<DataGrid.Columns>
 				<DataGridTextColumn Header="Recept naam" />
 			</DataGrid.Columns>
 		</DataGrid>
-
+		<Button Margin="187,225,9.6,10.4">Toevoegen</Button>
 	</Grid>
 </Window>
